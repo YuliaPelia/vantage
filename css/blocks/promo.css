@@ -1,0 +1,124 @@
+.promo {
+    background: #141414;
+    height: 660px;
+}
+
+.promo_img {
+    width: 978px;
+    height: 591px;
+}
+
+.promo_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.promo_social {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    height: 70px;
+    padding-left: 3px;
+}
+
+.promo_link {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 68px;
+    /* 566.667% */
+    letter-spacing: 2.975px;
+    text-transform: uppercase;
+}
+
+.promo_card {
+
+    position: absolute;
+    top: 68px;
+    right: 68px;
+    background: #FFF;
+    width: 584px;
+    padding: 67px 67px 68px 68px;
+    z-index: 20;
+}
+
+.promo_subtitle {
+    color: #99823D;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.575px;
+    /* 150.682% */
+    letter-spacing: 2.763px;
+    text-transform: uppercase;
+}
+
+.promo_title {
+    color: #141414;
+    font-family: Teko;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67.031px;
+    /* 100.046% */
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.promo_descr {
+    margin-top: 32px;
+    color: #141414;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px;
+    /* 150% */
+}
+
+.promo_btn {
+    width: 216px;
+    height: 68px;
+
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.85px;
+    /* 148.75% */
+    letter-spacing: 2.975px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.promo_btn:nth-child(1) {
+    background: #99823D;
+    color: #FFF;
+}
+
+.promo_btn:nth-child(2) {
+    background: #141414;
+    color: #FFF;
+}
+
+.promo .container {
+    position: relative;
+}
+
+.promo_card-btns {
+    margin-top: 15px;
+    display: flex;
+    gap: 17px
+}
+
+.promo_rectangle {
+    width: 489px;
+    height: 329px;
+    background: #99823D;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

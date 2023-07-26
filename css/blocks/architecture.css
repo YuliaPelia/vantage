@@ -1,0 +1,104 @@
+.architecture {
+    padding: 62px 0 102px;
+}
+
+
+
+.architecture_subtitle {
+    color: #99823D;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.575px;
+    /* 150.682% */
+    letter-spacing: 2.763px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.architecture_title {
+    color: #141414;
+    text-align: center;
+    font-family: Teko;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.955px;
+    /* 99.915% */
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+
+.architecture_item-date {
+    color: #99823D;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.575px;
+    /* 150.682% */
+    letter-spacing: 2.763px;
+    text-transform: uppercase;
+}
+
+.architecture_item-title {
+    color: #141414;
+    font-family: Teko;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.112px;
+    /* 100.431% */
+    text-transform: capitalize;
+    margin: 0;
+    margin-top: 11px;
+}
+
+.architecture_item-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.architecture_item-descr {
+    color: #141414;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px;
+    /* 150% */
+}
+
+.architecture_item {
+    width: 292px;
+}
+
+.architecture_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 70px;
+    margin-top: 120px;
+}
+
+.architecture-btn {
+    display: block;
+    margin: 0 auto;
+    background: #99823D;
+    width: 392px;
+    height: 68px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.85px;
+    /* 148.75% */
+    letter-spacing: 2.975px;
+    text-transform: uppercase;
+    padding: 25px;
+    border: none;
+    margin-top: 122px;
+}
